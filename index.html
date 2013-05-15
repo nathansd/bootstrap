@@ -1,0 +1,303 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap test &middot; NathanSD.com</title>
+    <!-- Bootstrap essential meta and link -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- My CSS-->
+    <!-- Notes for further developement: -->
+    <!-- Mobile CSS: needs width to be set a little thinner. -->
+
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+</head>
+  
+
+
+<body>
+
+<div class="cotainer-narrow">
+<!-- Content at top of the page. -->
+
+    <h1><a href="http://nathansd.com/bootstrap/" class="headerlink">&lt; Nathan Stewart-Devereux/ ></a></h1>
+    <p class="lead">Welcome to my humble <abbr title="Circulum Vitae" class="initialism">CV</abbr> site.</p>
+
+    <p>I created this site, over a few days (specifically 3) to test out this new techology I stumbled across;<br>
+    BootStrap by <a href="http://twitter.github.com/bootstrap/">twitter</a>. Using the pre made LESS CSS, I have created a small "CV" site.<br>
+    This has been great to learn about and I can see plenty of applications.
+    <br>One thing I have found interesting with this is that there is a minimal amount of DIVs required, as in there is a lot/most of the control and freedom is with &lt;P > tags and classes.
+    </p> 
+
+    <p><a href="NathanCv.pdf" target="_blank">Click here to download the Paper form of my CV</a>
+    </p>
+    
+<!-- Every thing below her is the tabular sections   -->
+<!-- That change via Bootstrap JavaScript tab functionality -->
+<!-- http://twitter.github.io/bootstrap/javascript.html#tabs -->
+
+    <!-- Tabs -->
+    <div class="tabs">
+        
+        <!-- Navigation for said tabs -->
+        <ul class="nav nav-tabs smallnavfont">
+            <li class="active"><a href="#tabCareer" data-toggle="tab">Career Goals</a></li>
+            <li><a href="#tabSkills" data-toggle="tab">Additional Skills</a></li>        
+            <li><a href="#tabWork" data-toggle="tab">Work I have done</a></li>
+            <li><a href="#tabAchievements" data-toggle="tab">Achievements / Education</a></li>
+            <li><a href="#tabHobbies" data-toggle="tab">Hobbies</a></li>
+            <li><a href="#tabPast" data-toggle="tab">Past Employment</a></li>
+            <li><a href="#tabRef" data-toggle="tab">References</a></li>
+        </ul>
+
+    <div class="tab-content">
+
+        <!-- Career Goals -->
+        <div class="tab-pane active" id="tabCareer">
+                    <ul class="unstyled topmargin">
+                        <li><h4 class="nomargin">Career Goals:</h4><br>
+                            To establish a foothold in the busy field of Web Development by building contacts, gaining invaluable experience, and creating a respectable portfolio.<br>
+                            On a personal list of goals, in the near future I want to become a master with <a href="http://www.sublimetext.com">Sublime Text 2</a>, and <a href="http://symfony.com">Symfony</a>.
+                            <p><br>I have skills in the following areas:</p>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>Computers: <span class="muted">I have OSX at home, and can use Windows.</span></li>
+                                <li>HTML, CSS : <span class="muted">Website design and visual appearance</span></li>
+                                <li>PHP, Databases/MySQL : <span class="muted">Website backend</span></li>
+                                <li>JavaScript / jQuery : <span class="muted">Interactivity / functionality</span></li>
+                                <li>HTML5/CSS3 : <span class="muted">modern technologies / mobile site development</span></li>
+                                <li>Boilerplate, CodeIgnitor : <span class="muted">MVC frameworks and their conventions and principles</span></li>
+                                <li>Client communication : <span class="muted">Working on non-profit website during class time as the Client Manager</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+        </div>
+
+<!-- Additional Skills -->
+        <div class="tab-pane" id="tabSkills">
+            <ul class="unstyled topmargin">
+                <li>
+                    <h4 class="nomargin">Additional Relevant Skills:</h4><br>
+                </li>
+                <li>
+                    <ul>
+                        <li>Enjoys problem solving - <span class="muted">'outside-the-box' solutions</span></li>
+                        <li>Great team player - <span class="muted">can work well within a team, including doing solo work</span></li>
+                        <li>Great Communication skills - <span class="muted">able to to express a view to contribute to teams</span></li>
+                        <li>Strong attention to detail - <span class="muted">ability to find bugs/typos/syntax errors</span></li>
+                        <li>Determined - <span class="muted">Strive for perfection.</span></li>
+                        <li>Ability to touchtype</li>
+                        <li>Confident in trying new things, learns quickly, willing to extend skills</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+<!-- Work I have done -->
+        <div class="tab-pane" id="tabWork">
+                <ul class="unstyled topmargin">
+                    <li>
+                        <h4 class="nomargin">Work I have done:</h4><br>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Designed a site from the ground up, another incorporating the 960grid system</li>
+                            <li>Created in PHP my own 'Blog' complete with an admin login, ability to create/delete posts, show/hide comments, upload new images</li>
+                            <li>A Database system that records multiple pieces of information, using many-to-one and many-to-many relationships complete with the intermediate relation table</li>
+                            <li style="list-style-type: none;">
+                                <ul>    
+                                    <li>The Database is also safe from HTML & SQL injection</li>
+                                </ul>
+                            </li>
+                            <li>Created a small mobile website utilizing the jQuery Mobile framework</li>
+                            <li>Created a basic e-commerce website with a user login and a shopping cart, with a separate admin price/product/type manipulation section</li>
+                            <li>Loose Portfolio Website for a Illustrator, using the CodeIgnitor framework, mainly for codeignitor experience</li>
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+
+<!-- Achievements/Education -->
+        <div class="tab-pane" id="tabAchievements">
+
+                <ul class="unstyled topmargin">
+                    <li><h4 class="nomargin">Achievements:</h4><br></li>
+                    <li>
+                        <ul>
+                            <li>2006: <abbr title="International Competitions and Assessments for Schools" class="initialism">ICAS</abbr> Science Competition Medal Winner - Top in New Zealand.</li>
+                        </ul>
+                    </li>
+                </ul>     
+                        
+                 
+                <ul class="unstyled topmargin">
+                    <li><h4 class="nomargin">Education:</h4><br></li>
+                    <li>
+                        <ul>
+                            <li>2012: Diploma of Web Development at Natcoll Design Technology - 20hours per week for 42 weeks.</li>
+                            <li>6 hour Adobe Photoshop course at Wintec</li>
+                            <li>12 hour Adobe Illustrator course at Wintec</li>
+                            <li>&lt; 2009: High School - <span class="muted">NCEA level 1 and NCEA level 2 both endorsed with Merit</span></li>
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+
+<!-- Hobbies -->
+        <div class="tab-pane" id="tabHobbies">
+                <ul class="unstyled topmargin">
+                    <li><h4 class="nomargin">Leisure Interests:</h4><br></li>
+                    <li>
+                        <ul>
+                            <li>Mac OSX</li>
+                            <li>Computer created Art</li>
+                            <li>Photography</li>
+                            <li>Longboarding</li>
+                            <li>Social Events</li>
+                            <li>Media - Social Networks / <a href="#">reddit.com</a> / Films</li>
+                            <li>Doodling / brainstorming</li>
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+
+<!-- Past Employment -->
+        <div class="tab-pane" id="tabPast">
+                <ul class="unstyled topmargin">
+                    <li><h4 class="nomargin">Previous Employment:</h4><br></li>
+                    <li>
+                        <ul>
+                            <li>Video Ezy - Ponsonby (Shift supervisor/general tech support)</li>
+                            <li style="list-style-type: none;">
+                                <ul>
+                                    <li>May 2012 - Present</li>
+                                </ul>
+                            </li>
+                            <li>Pak&#39;n Save Mill St Hamilton (Butchery/Seafood Assistant)</li>
+                            <li style="list-style-type: none;">
+                                <ul>
+                                    <li>May 2008 - March 2011</li>
+                                </ul>
+                            </li>
+                            <li>Waikato Times (Newspaper Delivery Boy)</li>
+                            <li style="list-style-type: none;">
+                                <ul>
+                                    <li>2004 - April 2008</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+
+<!-- References -->
+        <div class="tab-pane" id="tabRef">
+                <h4 class="topmargin">References:</h4><br>
+                <div class="row">
+                    <div class="span4">
+                        <span class="lead">Trung Ly</span><br>
+                        H.O.D. Web, Tutor<br>
+                        Natcoll Design Technology<br>
+                        Auckland<br>
+                        <a href="mailto:#">trung.ly@natcoll.ac.nz</a><br>
+                        (09) 303 3120<br>
+                    </div>
+                    <div class="span4">
+                        <span class="lead">Pip McDonald</span><br>
+                        Staff Manager<br>
+                        Video Ezy - Ponsonby<br>
+                        Auckland<br>
+                        <a href="mailto:#">videoezyponsonby@gmail.com</a><br>
+                        (09) 376 6450<br>
+                    </div>
+                </div>
+        </div>
+    </div>
+        
+
+    </div>
+    
+    
+    
+<!-- Contact Form -->
+<!-- Will be validate as user types and on sumbit -->
+<!-- If submit is successful will send serialized form via AJAX to ****.php -->
+<!-- Will then be processed there and emailed to me -->
+
+<!-- NB: sent via ajax so no page refresh, and form replaced with a thank you message -->
+
+
+<form id="contact-form" class="form-horizontal">
+  <fieldset>
+    <legend>Contact Me</legend>
+<!-- Name --> 
+    <div class="control-group">
+        <label class="control-label" for="name"><i class="icon-user"></i></label>
+            <div class="controls">
+                <input class="span3" placeholder="Name" name="name" id="name" type="text" required>
+            </div>      
+    </div>
+<!-- Email -->    
+    <div class="control-group">
+        <label class="control-label" for="email"><i class="icon-envelope"></i></label>
+            <div class="controls">
+                <input class="span3" placeholder="example@example.com" name="email" id="email" type="email" required>
+            </div>
+    </div>
+<!-- Message-->           
+    <div class="control-group">        
+        <label class="control-label" for="message"><i class="icon-comment"></i></label>
+        <div class="controls">
+            <textarea rows="5" id="message" name="message"  placeholder="Hello? Hello?" required></textarea>
+        </div>
+    </div>
+<!-- Submit--> 
+    <div class="control-group">
+        <div class="controls">
+            <button type="submit" class="btn btn-info"><i class="icon-ok icon-white"></i> Submit</button>
+            <button type="reset" class="btn"><i class="icon-remove"></i> Clear</button>
+        </div>
+    </div>   
+   
+  </fieldset>
+</form>
+
+
+
+
+</div><!-- End of Container-narrow-->
+  
+  
+
+<!-- Scripts -->
+
+<!-- jQuery -->
+<!-- get latest and up to date jQuery -->
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<!-- This is the jquery plugin for validation-->
+<script src="js/jquery.validate.js"></script>
+
+<!-- Link to jQuery Form plugin so can sumbit form via Ajax with correct functions -->
+<script src="http://malsup.github.com/jquery.form.js"></script>
+
+
+
+<!-- Minified bootstrap JS -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Non minified boostrap js -->
+<!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
+
+
+<!-- Ties validation together and forwards it onto the php function to send the email.-->
+<!-- Should have a better name -->
+<script type="text/javascript" src="js/validate.js"></script>
+
+
+
+</body>
+</html>
